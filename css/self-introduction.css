@@ -1,0 +1,818 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: "微软雅黑";
+	text-decoration: none;
+	/*================修改字体颜色====================*/
+	/*color: #D7D7D7;*/
+	color: #2B2B2B;
+}
+#all-box{
+	/* 此页面宽高是为了打印为A4是一张纸且占满 */
+	width: 900px;
+	height: 1280px;
+	margin: 0 auto;
+	position: relative;
+	border: 1px solid red;
+}
+.header{
+	height: 35px;
+	line-height: 35px;
+	text-align: center;
+	border: 1px solid yellow: ; 
+}
+
+#header-title{
+	width: 360px;
+	position: absolute;
+	left: 0;
+	text-align: center;
+	font-weight: normal;
+	font-size: 15px;
+	height: inherit;
+	line-height: 35px;
+	text-align: center;
+}
+/* #parallelogram {
+    width: 150px;
+    height: 100px;
+        margin-left:20px;
+    -webkit-transform: skew(20deg);
+       -moz-transform: skew(20deg);
+         -o-transform: skew(20deg);
+    background: red;
+} */
+.navi{
+	width: 515px;
+	height: inherit;
+	line-height: inherit;
+	background: gray;
+	overflow: hidden;
+	position: absolute;
+	right: 0px;
+	list-style: none;
+}
+
+.icon-jinlingyingcaiwangtubiao51{
+	font-family:"iconfont" !important;
+ 	font-size:15px;
+ 	font-style:normal;
+}
+
+
+.navi li{
+	width: 100px;
+	margin: 0 auto;
+	float: left;
+	border: 1px solid green;
+}
+.main{
+	width: inherit;
+	height: auto;
+}
+
+#introduction{
+	height: 200px;
+	width: inherit;
+	border: 1px solid blue;
+	/*===============背景颜色=====================*/
+	/*background: #2B2B2B;*/
+	background: #D7D7D7;
+}
+
+#photo{
+	width: 140px;
+	height: 180px;
+	border: 1px solid red;
+	margin: 10px 30px;
+	float: left;
+}
+
+#introduction-text{
+	float: left;
+	border: 1px solid blue;
+	padding: 20px 2px 20px 10px;
+	margin: 10px;
+	color: #D7D7D7;
+}
+#font-strong{
+	font-weight: 600;
+	font-size: 25px;
+	line-height: 1.5;
+}
+
+.font-big{
+	font-weight: bold;
+	font-size: 35px;
+	line-height: 1.5;
+}
+
+.font-small{
+	font-size: 15px;
+	line-height: 2;
+	font-weight: 200;
+}
+
+.font-normal{
+	font-size: 18px;
+	line-height: 2;
+	font-weight: 200;
+}
+.font-normal a{
+	color: #D7D7D7;
+}
+
+.text{
+	text-indent: 2em;
+}
+
+.split-1{
+	font-size: 20px;
+	font-weight: 500;
+	margin: 6px;
+}
+.split-2{
+	font-size: 20px;
+	font-weight: 500;
+	margin: 20px;
+}
+
+#education{
+	width: inherit;
+	height: 200px;
+	border: 1px solid deeppink;
+	position: relative;
+}
+/*==================技能部分样式===================
+====================================================*/
+
+#skills{
+	width: inherit;
+	height: 300px;
+	border: 1px solid #0A8084;
+	position: relative;
+}
+
+.skills-box{
+	border: 1px solid blue;
+	width: 450px;
+	height: 70px;
+	margin: 2px;
+	position: relative;
+}
+
+.skills-title{
+	width: 70px;
+	height: 40px;
+	border: 1px solid red;
+	position: relative;
+	top: 5px;
+	left: 30px;
+	color: #2B2B2B;
+}
+
+.icon-html{
+	font-family:"iconfont" !important;
+    font-size:30px;
+    font-style:normal;
+    position: relative;
+    right: -3px;
+    float: left;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+    transform: rotateY(0deg);
+    transition: transform 1s ease-in-out;
+} 
+
+.skills-box:hover .icon-html {
+	transform: rotateY(720deg);
+}
+
+.icon-css{
+	font-family:"iconfont" !important;
+    font-size:30px;
+    font-style:normal;
+    position: relative;
+    right: -9px;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+    transform: rotateY(0deg);
+    transition: transform 1s ease-in-out;
+}
+
+.skills-box:hover .icon-css{
+	transform: rotateY(720deg);
+}
+
+.icon-socialjavascript{
+	font-family:"iconfont" !important;
+    font-size:35px;
+    font-style:normal;
+    position: relative;
+    right: -20px;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+    transform: rotateY(0deg);
+    transition: transform 1s ease-in-out;
+}
+.skills-box:hover .icon-socialjavascript{
+	transform: rotateY(720deg);
+}
+
+.icon-jquery{
+	font-family:"iconfont" !important;
+    font-size:35px;
+    font-style:normal;
+    position: relative;
+    right: -20px;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+    transform: rotateY(0deg);
+    transition: transform 1s ease-in-out;
+}
+.skills-box:hover .icon-jquery {
+	transform: rotateY(720deg);
+}
+
+.skills-loading{
+	width: 340px;
+	height: 23px;
+	border: 1px solid #2B2B2B;
+	position: absolute;
+	right: 10px;
+	top: 30px;
+	border-radius: 5px;
+}
+/*==================进度条样式==================*/
+@keyframes loading-html{
+	0%   {background: #D7D7D7; width: 0px;}
+	100% {background: #2B2B2B; width: 300px;}
+}
+
+.loading-html{
+	display: block;
+	width:300px;
+	height:23px;
+	border-radius: 5px;
+	background: #2B2B2B;
+	position:relative;
+	animation:loading-html 6s ease-in-out;
+}
+
+@keyframes loading-css{
+	0%   {background: #D7D7D7; width: 0px;}
+	100% {background: #2B2B2B; width: 270px;}
+}
+
+.loading-css{
+	display: block;
+	width:270px;
+	height:23px;
+	border-radius: 5px;
+	background: #2B2B2B;
+	position:relative;
+	animation:loading-css 6s ease-in-out;
+}
+
+@keyframes loading-js{
+	0%   {background: #D7D7D7; width: 0px;}
+	100% {background: #2B2B2B; width: 200px;}
+}
+
+.loading-js{
+	display: block;
+	width:200px;
+	height:23px;
+	border-radius: 5px;
+	background: #2B2B2B;
+	position:relative;
+	animation:loading-js 6s ease-in-out;
+}
+
+@keyframes loading-jq{
+	0%   {background: #D7D7D7; width: 0px;}
+	100% {background: #2B2B2B; width: 140px;}
+}
+
+.loading-jq{
+	display: block;
+	width:140px;
+	height:23px;
+	border-radius: 5px;
+	background: #2B2B2B;
+	position:relative;
+	animation:loading-jq 6s ease-in-out;
+}
+/*==================右侧圆圈样式======================*/
+
+.skills-box2{
+	border: 1px solid red;
+	width: 230px;
+	height: 250px;
+	position: absolute;
+	right: 0px;
+	top: 0;
+	margin: 30px 10px 10px 10px;
+
+}
+
+@keyframes icon-html5{
+	0%   {color: #D7D7D7; font-size: 0px;}
+	50%  {font-size: 120px;}
+	74%  {font-size: 120px;}
+	82%  {font-size: 60px;}
+	89%  {font-size: 110px;}
+	95%  {font-size: 90px;}
+	100% {color: #2B2B2B; font-size: 120px;}
+}
+
+
+.icon-html5{
+	position: absolute;
+	font-family:"iconfont" !important;
+    font-size:120px;
+    font-style:normal;
+    color: black;
+    width: 120px;
+    text-align: center;
+    height: 130px;
+   	line-height: 130px;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+    animation:icon-html5 2s ;
+}
+
+@keyframes icon-socialcss3{
+	0%   {color: #D7D7D7; font-size: 0px;}
+	40%  {color: #D7D7D7; font-size: 0px;}
+	70%  {font-size: 110px;}
+	87%  {font-size: 110px;}
+	91%  {font-size: 55px;}
+	95%  {font-size: 95px;}
+	98%  {font-size: 80px;}
+	100% {color: #2B2B2B; font-size: 110px;}
+}
+
+.icon-socialcss3{
+	position: absolute;
+	top: 90px;
+	left: 125px;
+	width: 110px;
+    text-align: center;
+    height: 120px;
+   	line-height: 120px;
+	font-family:"iconfont" !important;
+    font-size:110px;
+    font-style:normal;
+    color: black;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+    animation:icon-socialcss3 3.5s ;
+}
+
+@keyframes icon-bootstrap{
+	0%   {color: #D7D7D7; font-size: 0px;}
+	55%  {color: #D7D7D7; font-size: 0px;}
+	75%  {font-size: 100px;}
+	90%  {font-size: 100px;}
+	93%  {font-size: 60px;}
+	96%  {font-size: 90px;}
+	98%  {font-size: 80px;}
+	100% {color: #2B2B2B; font-size: 100px;}
+}
+.icon-bootstrap{
+	position: absolute;
+	top: 150px;
+	left: 20px;
+	width: 100px;
+    text-align: center;
+    height: 108px;
+   	line-height: 108px;
+	font-family:"iconfont" !important;
+    font-size:100px;
+    font-style:normal;
+    color: black;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+    animation:icon-bootstrap 5s ;
+}
+
+@keyframes icon-wbdiconskillps{
+	0%   {color: #D7D7D7; font-size: 0px; left: -70px; top: 120px;}
+	40%  {color: #D7D7D7; font-size: 0px; left: -70px; top: 120px;}
+	60%  {color: #2B2B2B; font-size: 80px; left: -70px; top: 120px;}
+	82%  {color: #2B2B2B; font-size: 80px; left: -70px; top: 120px;}
+	88%  {color: #2B2B2B; font-size: 80px; left: 60px; top: 80px;}
+	100% {color: #2B2B2B; font-size: 80px; left: 60px; top: 80px;}
+}
+
+.icon-wbdiconskillps{
+	position: absolute;
+	z-index: 2;
+	top: 85px;
+	left: 60px;
+	width: 80px;
+    text-align: center;
+    height: 87px;
+   	line-height: 87px;
+	font-family:"iconfont" !important;
+    font-size:80px;
+    font-style:normal;
+    color: black;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+    animation:icon-wbdiconskillps 3.5s ease-in-out;
+}
+
+@keyframes icon-wbdiconskillpr{
+	0%   {color: #D7D7D7; font-size: 0px; left: 200px; top: 0px;}
+	60%  {color: #D7D7D7; font-size: 0px; left: 200px; top: 0px;}
+	75%  {color: #2B2B2B; font-size: 55px; left: 200px; top: 0px;}
+	87%  {color: #2B2B2B; font-size: 55px; left: 200px; top: 0px;}
+	91%  {color: #2B2B2B; font-size: 55px; left: 120px; top: 60px;}
+	100% {color: #2B2B2B; font-size: 55px; left: 120px; top: 60px;}
+}
+
+.icon-wbdiconskillpr{
+	position: absolute;
+	top: 60px;
+	left: 120px;
+	width: 55px;
+    text-align: center;
+    height: 60px;
+   	line-height: 60px;
+	font-family:"iconfont" !important;
+    font-size:55px;
+    font-style:normal;
+    color: black;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+    animation:icon-wbdiconskillpr 5s ease-in-out;
+}
+
+@keyframes icon-wbdiconskillae{
+	0%   {color: #D7D7D7; font-size: 0px; left: 150px; top: 240px;}
+	50%  {color: #2B2B2B; font-size: 55px; left: 150px; top: 240px;}
+	65%  {color: #2B2B2B; font-size: 55px; left: 150px; top: 240px;}
+	75%  {color: #2B2B2B; font-size: 55px; left: 95px; top: 150px;}
+	100% {color: #2B2B2B; font-size: 55px; left: 95px; top: 150px;}
+}
+
+
+.icon-wbdiconskillae{
+	position: absolute;
+	top: 150px;
+	left: 95px;
+	width: 55px;
+    text-align: center;
+    height: 60px;
+   	line-height: 60px;
+   	z-index: 2;
+	font-family:"iconfont" !important;
+    font-size:55px;
+    font-style:normal;
+    color: black;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+    animation:icon-wbdiconskillae 2s ease-in-out;
+}
+
+/*===============技能部分完===================*/
+
+#project{
+	width: inherit;
+	height: 230px;
+	border: 1px solid #F16209;
+	position: relative;
+}
+
+#about-me{
+	width: inherit;
+	height: 270px;
+	border: 1px solid #09F18C;
+	position: relative;
+}
+
+.footer{
+	width: inherit;
+	height: 50px;
+	border: 1px solid #09F18C;
+	background: #2B2B2B;
+}
+
+.icon-area{
+	height: inherit;
+	width: 180px;
+	border: 1px solid black;
+	position: relative;
+/*=================背景颜色=================*/
+	/*background: #2B2B2B;*/
+	background: #D7D7D7;
+	color: #D7D7D7;
+}
+
+.icon-area-pic{
+	width: 65px;
+	height: 65px;
+	line-height: 65px;
+	text-align: center;
+	/*border: 1px solid black;*/
+	top: 30px;
+	position: absolute;
+	right: 30px;
+	overflow: hidden;
+}
+
+.icon-area-title{
+	/*border: 1px solid black;*/
+	position: absolute;
+	right: 30px;
+	top: 93px;
+	opacity: 1;
+	text-shadow: 1px 1px 2px #626262;
+}
+
+
+
+
+ /*===============教育图标的动画效果===============*/
+.icon-jiaoyu{
+ 	font-family:"iconfont" !important;
+ 	font-size:50px;
+ 	font-style:normal;
+ 	position: relative;
+ 	top: 0px;
+ 	left: 5px;
+ 	text-align: center;
+ 	-webkit-font-smoothing: antialiased;
+ 	-webkit-text-stroke-width: 0.2px;
+ 	-moz-osx-font-smoothing: grayscale;
+ 	transition: top 0.5s;
+	-moz-transition: top 0.5s; Firefox 4
+	-webkit-transition: top 0.5s; Safari 和 Chrome
+	-o-transition: top 0.5s;
+} 
+.icon-jiaoyu1{
+ 	font-family:"iconfont" !important;
+ 	font-size:50px;
+ 	font-style:normal;
+ 	position: relative;
+ 	left: -45px;
+ 	top: 57px;
+ 	text-align: center;
+ 	transition: top 0.5s ease-in-out;
+	-moz-transition: top 0.5s; /* Firefox 4 */
+	-webkit-transition: top 0.5s; /* Safari 和 Chrome */
+	-o-transition: top 0.5s;
+ }
+
+.icon-area:hover .icon-jiaoyu{
+	top: -70px;
+}
+.icon-area:hover .icon-jiaoyu1{
+	top: -2px;
+}
+
+@keyframes font-shake{
+	0%   {opacity: 0;}
+	70%  {opacity: 1;}
+	80%  {opacity: 1;right: 30px;}
+	84%  {right: 45px;}
+	88%  {right: 15px;}
+	91%  {right: 40px;}
+	94%  {right: 20px;}
+	96%  {right: 35px;}
+	98%  {right: 25px;}
+	99%  {right: 33px;}
+	100% {right: 30px;}
+}
+
+.icon-area:hover .icon-area-title{
+	animation:font-shake 1.5s ;
+}
+
+
+
+/*==============技能图标动画效果=============*/
+
+.icon-xiangmuanquan{
+ 	font-family:"iconfont" !important;
+ 	font-size:50px;
+ 	font-style:normal;
+ 	position: relative;
+ 	top: 0px;
+ 	left: 5px;
+ 	opacity: 1;
+ 	-webkit-font-smoothing: antialiased;
+ 	-webkit-text-stroke-width: 0.2px;
+ 	-moz-osx-font-smoothing: grayscale;
+ 	transition: opacity 0.5s linear;
+	-moz-transition: opacity 0.5s; /*Firefox 4*/
+	-webkit-transition: opacity 0.5s; /*Safari 和 Chrome*/
+	-o-transition: opacity 0.5s;
+} 
+.icon-peixunxiangmu{
+ 	font-family:"iconfont" !important;
+ 	font-size:50px;
+ 	font-style:normal;
+ 	position: relative;
+ 	left: -46px;
+ 	top: -2px;
+ 	opacity: 0;
+ 	transition: opacity 0.5s linear;
+	-moz-transition: opacity 0.5s; /* Firefox 4 */
+	-webkit-transition: opacity 0.5s; /* Safari 和 Chrome */
+	-o-transition: opacity 0.5s;
+ }
+
+.icon-area:hover .icon-xiangmuanquan{
+	opacity: 0;
+}
+
+.icon-area:hover .icon-peixunxiangmu{
+	opacity: 1;
+}
+
+
+/* 
+.icon-jineng1{
+	font-family:"iconfont" !important;
+ 	font-size:45px;
+ 	font-style:normal;
+ 	-webkit-transform: rotate(0deg);
+ 	-ms-transform: rotate(0deg);
+ 	-o-transform: rotate(0deg);
+ 	transform: rotate(0deg);
+ 	transition: transform 0.6s ease-in-out,font-size 0.6s ease-in-out;
+	-moz-transition: transform 0.6s ease-in-out; Firefox 4
+	-webkit-transition: transform 0.6s; Safari 和 Chrome
+	-o-transition: transform 0.6s;
+}
+.icon-area-pic:hover .icon-jineng1{
+	transform: rotate(360deg);
+	font-size: 60px;
+} */
+/*=========项目图标的动画效果=========*/
+
+.icon-project{
+ 	font-family:"iconfont" !important;
+ 	font-size:50px;
+ 	font-style:normal;
+ 	position: relative;
+ 	top: 0px;
+ 	left: 5px;
+ 	text-align: center;
+ 	-webkit-font-smoothing: antialiased;
+ 	-webkit-text-stroke-width: 0.2px;
+ 	-moz-osx-font-smoothing: grayscale;
+ 	transition: top 0.5s;
+	-moz-transition: top 0.5s; Firefox 4
+	-webkit-transition: top 0.5s; Safari 和 Chrome
+	-o-transition: top 0.5s;
+} 
+.icon-weibiaoti1{
+ 	font-family:"iconfont" !important;
+ 	font-size:50px;
+ 	font-style:normal;
+ 	position: relative;
+ 	left: -45px;
+ 	top: 60px;
+ 	text-align: center;
+ 	transition: top 0.5s ease-in-out;
+	-moz-transition: top 0.5s; Firefox 4
+	-webkit-transition: top 0.5s; Safari 和 Chrome
+	-o-transition: top 0.5s;
+ }
+
+.icon-area:hover .icon-project{
+	top: -70px;
+}
+.icon-area:hover .icon-weibiaoti1{
+	top: -2px;
+}
+/*================自我评价的动画效果=================*/
+
+.icon-icon079{
+ 	font-family:"iconfont" !important;
+ 	font-size:50px;
+ 	font-style:normal;
+ 	position: relative;
+ 	top: 0px;
+ 	left: 5px;
+ 	opacity: 1;
+ 	-webkit-font-smoothing: antialiased;
+ 	-webkit-text-stroke-width: 0.2px;
+ 	-moz-osx-font-smoothing: grayscale;
+ 	transition: opacity 0.5s linear;
+	-moz-transition: opacity 0.5s; /*Firefox 4*/
+	-webkit-transition: opacity 0.5s; /*Safari 和 Chrome*/
+	-o-transition: opacity 0.5s;
+} 
+.icon-31daipingjia{
+ 	font-family:"iconfont" !important;
+ 	font-size:50px;
+ 	font-style:normal;
+ 	position: relative;
+ 	left: -45px;
+ 	top: 2px;
+ 	opacity: 0;
+ 	transition: opacity 0.5s linear;
+	-moz-transition: opacity 0.5s; /* Firefox 4 */
+	-webkit-transition: opacity 0.5s; /* Safari 和 Chrome */
+	-o-transition: opacity 0.5s;
+ }
+
+.icon-area:hover .icon-icon079{
+	opacity: 0;
+}
+.icon-area:hover .icon-31daipingjia{
+	opacity: 1;
+}
+
+
+/*=========================================*/
+
+
+#education-pic{
+	width: 131px;
+	height: 131px;
+	border: 2px solid rgb(2,82,164);
+	border-radius: 50%;
+	position: relative;
+	left: 40px;
+	top: 30px;
+	background: url(../img/self-introduction/115529414310.jpg) no-repeat -27px 2px;
+	background-size: 145%;
+}
+/*.break-line{
+	height: inherit;
+	width: 2px;
+	border: none;
+	border-left: 3px dashed #333333;
+}*/
+.content-area{
+	height: inherit;
+	width: 720px;
+	border: 1px solid black;
+	background: #D7D7D7;
+	position: absolute;
+	left: 182px;
+	top: 0;
+	box-shadow: 10px 10px 10px #D7D7D7 inset;
+}
+
+#education-content{
+	position: absolute;
+	left: 210px;
+	top: 30px;
+	border: 1px solid black;
+	margin-top: 30px; 
+	width: 500px;
+
+}
+
+#education-content hr{
+	width: 95% ;
+	border: none;
+	border-top: 3px solid #2B2B2B;
+}
+
+#education-content ul li{
+	float: left;
+	margin-left: 25px;
+	margin-right: 20px;
+}
+
+#about-me .content-area{
+	padding: 20px 30px;
+	width: 660px;
+	height: 230px;
+}
+#about-me .content-area li{
+	margin-left: 33px;
+}
+
+#project .content-area{
+	padding: 20px 30px;
+	width: 660px;
+	height: 230px;
+}
+
+#project .content-area p{
+	font-weight: 700;
+}
+
+#project .content-area li{
+	margin-left: 33px;
+}
+
