@@ -5,33 +5,40 @@
 	text-decoration: none;
 	/*================修改字体颜色====================*/
 	/*color: #D7D7D7;*/
-	color: #2B2B2B;
+	/*color: #2B2B2B;*/
 }
 #all-box{
 	/* 此页面宽高是为了打印为A4是一张纸且占满 */
 	width: 900px;
-	height: 1280px;
+	height: 1295px;
 	margin: 0 auto;
 	position: relative;
-	border: 1px solid red;
-}
+	box-shadow: 0 0 2px #191919;
+	overflow: hidden;
+} 
 .header{
-	height: 35px;
+	height: 45px;
 	line-height: 35px;
 	text-align: center;
-	border: 1px solid yellow: ; 
+	border:none;
+	background: #222222;
+	background-image: linear-gradient(#222222 ,#111111);
 }
 
 #header-title{
-	width: 360px;
+	width: 400px;
 	position: absolute;
 	left: 0;
 	text-align: center;
 	font-weight: normal;
 	font-size: 15px;
 	height: inherit;
-	line-height: 35px;
+	line-height: 45px;
 	text-align: center;
+	letter-spacing: 1em;
+}
+#header-title h1{
+	color: #D7D7D7;
 }
 /* #parallelogram {
     width: 150px;
@@ -43,10 +50,9 @@
     background: red;
 } */
 .navi{
-	width: 515px;
+	width: 520px;
 	height: inherit;
 	line-height: inherit;
-	background: gray;
 	overflow: hidden;
 	position: absolute;
 	right: 0px;
@@ -61,10 +67,20 @@
 
 
 .navi li{
-	width: 100px;
+	color: #D7D7D7;
+	width: 90px;
+	height: 30px;
+	line-height: 30px;
 	margin: 0 auto;
 	float: left;
-	border: 1px solid green;
+	margin: 5px;
+	border: 1px solid transparent;
+}
+.navi li:hover{
+	cursor: pointer;
+	border: 1px solid #777;
+	background: #464646;
+	background-image: 
 }
 .main{
 	width: inherit;
@@ -74,25 +90,29 @@
 #introduction{
 	height: 200px;
 	width: inherit;
-	border: 1px solid blue;
+	/*border: 1px solid blue;*/
+	position: relative;
 	/*===============背景颜色=====================*/
-	/*background: #2B2B2B;*/
-	background: #D7D7D7;
+	background: #2B2B2B;
+	background-image: linear-gradient(#2B2B2B ,#262626);
+	/*background: #D7D7D7;*/
 }
 
 #photo{
 	width: 140px;
 	height: 180px;
 	border: 1px solid red;
-	margin: 10px 30px;
-	float: left;
+	position: relative;
+	left: 30px;
+	top: 10px;
 }
 
 #introduction-text{
 	float: left;
-	border: 1px solid blue;
-	padding: 20px 2px 20px 10px;
-	margin: 10px;
+	/*border: 1px solid blue;*/
+	position: absolute;
+	top: 25px;
+	left: 200px;
 	color: #D7D7D7;
 }
 #font-strong{
@@ -124,6 +144,7 @@
 
 .text{
 	text-indent: 2em;
+	/*color: #2B2B2B;*/
 }
 
 .split-1{
@@ -140,7 +161,7 @@
 #education{
 	width: inherit;
 	height: 200px;
-	border: 1px solid deeppink;
+	/*border: 1px solid deeppink;*/
 	position: relative;
 }
 /*==================技能部分样式===================
@@ -149,12 +170,12 @@
 #skills{
 	width: inherit;
 	height: 300px;
-	border: 1px solid #0A8084;
+	/*border: 1px solid #0A8084;*/
 	position: relative;
 }
 
 .skills-box{
-	border: 1px solid blue;
+	/*border: 1px solid blue;*/
 	width: 450px;
 	height: 70px;
 	margin: 2px;
@@ -164,7 +185,7 @@
 .skills-title{
 	width: 70px;
 	height: 40px;
-	border: 1px solid red;
+	/*border: 1px solid red;*/
 	position: relative;
 	top: 5px;
 	left: 30px;
@@ -310,13 +331,14 @@
 /*==================右侧圆圈样式======================*/
 
 .skills-box2{
-	border: 1px solid red;
+	/*border: 1px solid red;*/
 	width: 230px;
 	height: 250px;
 	position: absolute;
 	right: 0px;
 	top: 0;
 	margin: 30px 10px 10px 10px;
+	color: #2B2B2B;
 
 }
 
@@ -336,7 +358,6 @@
 	font-family:"iconfont" !important;
     font-size:120px;
     font-style:normal;
-    color: black;
     width: 120px;
     text-align: center;
     height: 130px;
@@ -369,7 +390,6 @@
 	font-family:"iconfont" !important;
     font-size:110px;
     font-style:normal;
-    color: black;
     -webkit-font-smoothing: antialiased;
     -webkit-text-stroke-width: 0.2px;
     -moz-osx-font-smoothing: grayscale;
@@ -397,7 +417,6 @@
 	font-family:"iconfont" !important;
     font-size:100px;
     font-style:normal;
-    color: black;
     -webkit-font-smoothing: antialiased;
     -webkit-text-stroke-width: 0.2px;
     -moz-osx-font-smoothing: grayscale;
@@ -409,8 +428,8 @@
 	40%  {color: #D7D7D7; font-size: 0px; left: -70px; top: 120px;}
 	60%  {color: #2B2B2B; font-size: 80px; left: -70px; top: 120px;}
 	82%  {color: #2B2B2B; font-size: 80px; left: -70px; top: 120px;}
-	88%  {color: #2B2B2B; font-size: 80px; left: 60px; top: 80px;}
-	100% {color: #2B2B2B; font-size: 80px; left: 60px; top: 80px;}
+	88%  {color: #2B2B2B; font-size: 80px; left: 60px; top: 85px;}
+	100% {color: #2B2B2B; font-size: 80px; left: 60px; top: 85px;}
 }
 
 .icon-wbdiconskillps{
@@ -425,7 +444,6 @@
 	font-family:"iconfont" !important;
     font-size:80px;
     font-style:normal;
-    color: black;
     -webkit-font-smoothing: antialiased;
     -webkit-text-stroke-width: 0.2px;
     -moz-osx-font-smoothing: grayscale;
@@ -433,10 +451,10 @@
 }
 
 @keyframes icon-wbdiconskillpr{
-	0%   {color: #D7D7D7; font-size: 0px; left: 200px; top: 0px;}
-	60%  {color: #D7D7D7; font-size: 0px; left: 200px; top: 0px;}
-	75%  {color: #2B2B2B; font-size: 55px; left: 200px; top: 0px;}
-	87%  {color: #2B2B2B; font-size: 55px; left: 200px; top: 0px;}
+	0%   {color: #D7D7D7; font-size: 0px; left: 185px; top: -30px;}
+	60%  {color: #D7D7D7; font-size: 0px; left: 185px; top: -30px;}
+	75%  {color: #2B2B2B; font-size: 55px; left: 185px; top: -30px;}
+	87%  {color: #2B2B2B; font-size: 55px; left: 185px; top: -30px;}
 	91%  {color: #2B2B2B; font-size: 55px; left: 120px; top: 60px;}
 	100% {color: #2B2B2B; font-size: 55px; left: 120px; top: 60px;}
 }
@@ -452,7 +470,6 @@
 	font-family:"iconfont" !important;
     font-size:55px;
     font-style:normal;
-    color: black;
     -webkit-font-smoothing: antialiased;
     -webkit-text-stroke-width: 0.2px;
     -moz-osx-font-smoothing: grayscale;
@@ -480,7 +497,6 @@
 	font-family:"iconfont" !important;
     font-size:55px;
     font-style:normal;
-    color: black;
     -webkit-font-smoothing: antialiased;
     -webkit-text-stroke-width: 0.2px;
     -moz-osx-font-smoothing: grayscale;
@@ -492,33 +508,29 @@
 #project{
 	width: inherit;
 	height: 230px;
-	border: 1px solid #F16209;
+	/*border: 1px solid #F16209;*/
 	position: relative;
 }
 
 #about-me{
 	width: inherit;
 	height: 270px;
-	border: 1px solid #09F18C;
+	/*border: 1px solid #09F18C;*/
 	position: relative;
-}
-
-.footer{
-	width: inherit;
-	height: 50px;
-	border: 1px solid #09F18C;
-	background: #2B2B2B;
 }
 
 .icon-area{
 	height: inherit;
 	width: 180px;
-	border: 1px solid black;
+	/*border-top: 1px solid black;*/
 	position: relative;
 /*=================背景颜色=================*/
-	/*background: #2B2B2B;*/
-	background: #D7D7D7;
+	background: #2B2B2B;
+	background-image: linear-gradient(#2B2B2B ,#262626);
+	/*background: #D7D7D7;*/
 	color: #D7D7D7;
+	/*box-shadow: 0 -1px 0 #999999,0 -3px 0 #C4C4C4;*/
+
 }
 
 .icon-area-pic{
@@ -762,20 +774,20 @@
 }*/
 .content-area{
 	height: inherit;
-	width: 720px;
-	border: 1px solid black;
+	width: 719px;
+	/*border-top: 2px solid #999;*/
 	background: #D7D7D7;
 	position: absolute;
 	left: 182px;
 	top: 0;
-	box-shadow: 10px 10px 10px #D7D7D7 inset;
+	box-shadow: 0 -1px 0 #999,0 -3px 0 #555;
 }
 
 #education-content{
 	position: absolute;
 	left: 210px;
 	top: 30px;
-	border: 1px solid black;
+	/*border: 1px solid black;*/
 	margin-top: 30px; 
 	width: 500px;
 
@@ -793,19 +805,19 @@
 	margin-right: 20px;
 }
 
-#about-me .content-area{
+ #about-me .content-area{
 	padding: 20px 30px;
-	width: 660px;
+	width: 659px;
 	height: 230px;
-}
+} 
 #about-me .content-area li{
 	margin-left: 33px;
 }
 
 #project .content-area{
 	padding: 20px 30px;
-	width: 660px;
-	height: 230px;
+	width: 659px;
+	height: 190px;
 }
 
 #project .content-area p{
@@ -816,3 +828,17 @@
 	margin-left: 33px;
 }
 
+.footer{
+	padding-top: 10px;
+	width: inherit;
+	height: 50px;
+	/*border: 1px solid #09F18C;*/
+	background: #222222;
+	background-image: linear-gradient(#222222 ,#111111);
+}
+
+.footer p{
+	text-align: center;
+	line-height: 20px;
+	color: #d4d4d4
+}

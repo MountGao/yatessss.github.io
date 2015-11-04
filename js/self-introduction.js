@@ -5,16 +5,18 @@ window.onload = function(){
 console.log(window.onload())
 
 function add_break_line(){
-	var ele = document.getElementById('break-line');
-	console.log(ele);
-	for (var i = 0; i < ele.length; i++) {
-		var parent_height = ele.parentNode.offsetHeight-80;
-		ele[i].style.border = 'none';
-		ele[i].style.borderLeft = '5px dotted #333333';
-		ele[i].style.width = '2px';
-		ele[i].style.height = parent_height +'px';
-		ele[i].style.margin = '50px 0 20px 3px';
-		ele[i].style.position = 'absolute';
-		console.log(ele[i]);
+	var ele_class = document.getElementsByClassName('break-line');
+	console.log(ele_class);
+	for (var i = 0; i < ele_class.length; i++) {
+		var parent_height = ele_class[i].parentNode.offsetHeight-80;
+		ele_class[i].style.border = 'none';
+		ele_class[i].style.borderLeft = '2px solid #D7D7D7';
+		ele_class[i].style.width = '0px';
+		ele_class[i].style.height = parent_height +'px';
+		ele_class[i].style.position = 'absolute';
+		ele_class[i].style.left = '-15px';
+		ele_class[i].style.top = '50px';
+		ele_class[i].style.boxShadow = '1px 0 0 #5F5F5F, 2px 0 0 #595959';
+		console.log(ele_class[i].parentNode.offsetHeight);
 	};
 }
