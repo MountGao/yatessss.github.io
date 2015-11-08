@@ -10,15 +10,18 @@ $(document).ready(function(){
 });
 
 $('#navi-button').click(function(){
-	if ($('#navi-menu').offset().left == 1347.953125 ) { 
+	var width = $(document).width();
+	if ($('#navi-menu').offset().left > width ) { 
+		console.log($(document).width());
 		$('#navi-menu').animate({
 		right:'80px',
 		});
 		return;
 	};
-	if($('#navi-menu').offset().left == 877.953125 ){
+	if($('#navi-menu').offset().left < width ){
+		console.log($(document).width());
 		$('#navi-menu').animate({
-		right:'-390px',
+		right:'-500px',
 		});
 		return;
 	}
