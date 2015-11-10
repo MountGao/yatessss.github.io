@@ -180,8 +180,9 @@
 }
 
 #section4-bg .section-text-content{
-	left: 450px;
-	top: 70px;	
+	left: 50%;
+	top: 70px;
+	margin-left: -250px;	
 }
 #section4-bg h1{
 	display: block;
@@ -299,8 +300,10 @@
 #section4-bg #footer p{
 	margin: 0;
 	position: absolute;
-	left: 45%;
+	left: 50%;
+	text-indent: 0;
 	top: 10px;
+	margin-left: -44px;
 	
 }
 /*====================================================*/
