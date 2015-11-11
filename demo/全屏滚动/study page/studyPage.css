@@ -1,12 +1,12 @@
 *{
-	font-family: '微软雅黑';
+	font-family: '微软雅黑','Milonga', cursive;
 	text-decoration: none;
 	letter-spacing: 0.05em;
 }
 #all-box{
 	width: 100%;
 	height: auto;
-	position: relative;
+	position: absolute;
 }
 /*=====================头部样式=========================*/
 #header-area{
@@ -17,6 +17,9 @@
 	position: fixed;
 	z-index: 99;
 	top: 0;
+}
+#header-area a{
+	color: #DBDBDB;
 }
  #my-logo{
 	display: inline-block;
@@ -96,10 +99,17 @@
 	/*border: 1px solid red;*/
 	overflow: hidden;
 }
-#banner{
+#fixed-bg{
+	position: fixed;
+	top: 40px;
 	width: 100%;
 	height: 620px;
 	background: url(1.jpg) no-repeat center center;
+	z-index: -1;
+}
+#banner{
+	width: 100%;
+	height: 620px;
 	background-size: 100% 140%;
 	margin-top: 40px; 
 	position: relative;
@@ -155,6 +165,9 @@
 	color: #EBEBEB;
 	padding: 3px 20px;
 }
+#banner-content a:hover{
+	background: #BB000A;
+	}
 #more-button{
 	width: 100px;
 	height: 100px;
@@ -168,14 +181,14 @@
 #introduce-content{
 	width: 100%;
 	height: 1000px;
-	background: #01010C;
+	background: #040A11;
 	padding: 50px 0;
 }
 /*=======第一个部分内容*/
 .introduce-part1{
 	width: 100%;
 	height: 330px;
-	background: #040418;
+	background: #040A25;
 	position: relative;
 	overflow: hidden;
 }
@@ -238,10 +251,17 @@
 	/*background: red;*/
 }
 /*========================main content部分===================*/
+#main-cover-layer{
+	height: 1200px;
+	width: 100%;
+	background: rgba(4,4,26,0.9);
+	position: absolute;
+	z-index: 2;
+}
 #main-content{
 	width: 100%;
-	height: 1150px;
-	background: #050538;
+	height: 1200px;
+	background: url(6.gif);
 	position: relative;
 }
 #main-content-title{
@@ -253,52 +273,86 @@
 	margin: 90px 0 0 -350px;
 	text-align: center;
 	color: #EBEBEB;
+	z-index: 3;
 }
 #content-area{
 	width: 800px;
 	height: 750px;
 	background: white;
 	position: absolute;
+	z-index: 3;
 	left: 50%;
 	margin: 340px 0 0 -400px;
 }
 .area-style{
 	width: 400px;
-	height: 250px;
+	height: 230px;
 	/*border: 1px solid green;*/
+	padding-top: 20px; 
+}
+.area-style h1,
+.area-style h2,
+.area-style p,
+.area-style a{
+	margin: 0 0 15px 0 ;
+	padding: 0;
+	color: #EBEBEB;
+	text-align: center;
+	font-family: 'Milonga', cursive;
+}
+.area-style h1{
+	font-size: 1.5em;
+	font-weight: 300;
+}
+.area-style p{
+	width: 300px;
+	margin: 0 auto;
+	line-height: 18px;
+}
+.area-style a{
+	display: block;
+	width: 80px;
+	height: 30px;
+	line-height: 30px;
+	margin: 35px auto;
+	background: #9F040C;
+	font-size: 15px;
+}
+.area-style a:hover{
+	background:#BB000A;
 }
 #content-1{
-	background: #050531;
+	background: #040A21;
 	position: relative;
 	top: 0;
 	left: 0;
 }
 #content-2{
-	background: #05052A;
+	background: #040A1E;
 	position: relative;
 	top: -250px;
 	left: 400px;
 }
 #content-3{
-	background: #050523;
+	background: #040A1B;
 	position: relative;
 	top: -250px;
 	left: 0;
 }
 #content-4{
-	background: #05051F;
+	background: #040A18;
 	position: relative;
 	top: -500px;
 	left: 400px;
 }
 #content-5{
-	background: #050518;
+	background: #040A15;
 	position: relative;
 	top: -500px;
 	left: 0px;
 }
 #content-6{
-	background: #050511;
+	background: #040A12;
 	position: relative;
 	top: -750px;
 	left: 400px;
