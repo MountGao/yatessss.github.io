@@ -117,7 +117,8 @@
 #cover-layer{
 	height: 620px;
 	width: 100%;
-	background: rgba(0,0,0,0.8);
+	background: rgb(0,0,0);
+	opacity: 0.1;
 	text-indent: -999em;
 	position: absolute;
 	z-index: 2;
@@ -137,6 +138,8 @@
 	margin: 0 auto;
 	width: 170px;
 	top: 170px;
+	/*=======动画需要=====*/
+	opacity: 0;
 }
 #banner-content span{
 	display: block;
@@ -153,6 +156,8 @@
 	position: relative;
 	top: 200px;
 	margin: 0 auto;
+	/*=======动画需要=====*/
+	opacity: 0;
 }
 #banner-content a{
 	display: block;
@@ -164,6 +169,8 @@
 	margin: 0 auto;
 	color: #EBEBEB;
 	padding: 3px 20px;
+	/*=======动画需要=====*/
+	opacity: 0;
 }
 #banner-content a:hover{
 	background: #BB000A;
