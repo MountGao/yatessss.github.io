@@ -1,0 +1,18 @@
+.container{
+	width: 1190px;
+	margin: 0 auto;
+}
+
+#button{
+	width: 40px;
+	height: 40px;
+	background: red url(top_bg.png) no-repeat;
+	background-position: 0 0;
+	position: fixed;
+	right: 50px;
+	bottom: 50px;
+	display: none;
+}
+#button:hover{
+	background-position: 0 -39px;
+}
