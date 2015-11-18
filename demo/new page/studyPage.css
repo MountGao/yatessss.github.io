@@ -18,80 +18,58 @@
 	z-index: 99;
 	top: 0;
 }
+
 #header-area a{
-	color: #DBDBDB;
+	color: #232323;
 }
  #my-logo{
 	display: inline-block;
 	font-family: 'STXihei';
 	letter-spacing: 0;
-	color: #DBDBDB;
 	height: 100%;
-	line-height: 30px;
-	font-size: 25px;
-	font-weight: 100;
-	padding:0px 0px 4px 4px;
-	border:1px solid rgba(240,240,240,0.2);
+	line-height: 50px;
+	font-size: 35px;
+	font-weight: 500;
 	margin-left: 10px;
 } 
 #my-logo span{
+	display: inline-block;
+	height: 100%;
 	font-family: 'STXihei';
-	font-weight: 100;
-	font-size: 40px; 
-	border: 1px solid rgba(240,240,240,0.4);
-	padding: 0px 4px 2px 4px;
-	background: #DBDBDB;
-	color: #262626;
-}
-#my-logo:hover {
-	color: #fff;
-	background: black;
-	border:1px solid #DBDBDB;
-}
-#my-logo:hover span{
-	background: #fff;
-	color: black;
-}
-#navi-button {
-	display: block;
-	float: right;
-	position: relative;
+	font-weight: 900;
+	font-size: 50px; 
+	padding: 0px 8px 0px 8px;
+	background: #FC9C12;
 	color: #DBDBDB;
-	letter-spacing: 0.25em;
-	padding: 5px 20px 5px 25px;
-	height: 28px;
-	line-height: 28px;
-	border: 1px solid transparent;
+	border-radius: 5px;
 }
-#navi-button:hover{
-	color: #fff;
-	border: 1px solid #DBDBDB;
-	cursor: pointer;
-	background: black;
-}
+
 #navi-menu {
 	position: absolute;
-	right: -500px;
+	right: 0px;
 	top: 0;
 	margin: 0;
-	height: 38px;
-	line-height: 38px;
+	height: 60px;
+	line-height: 60px;
 
 }
 #navi-menu li{
-	height: 25px;
-	line-height: 25px;
+	height: 60px;
+	line-height: 60px;
 	float: left;
 	list-style: none;
-	padding: 4px 15px;
-	color: #DBDBDB;
-	margin: 2px 4px;
-	border: 1px solid transparent;
+	font-size: 25px;
+	color: #232323;
+	margin: 0 20px;
+	cursor: pointer;
 }
 #navi-menu li:hover{
-	cursor: pointer;
-	border: 1px solid #DBDBDB;
+	color: #FC9C12;
 }
+#navi-menu li:hover a{
+	color: #FC9C12;
+}
+
 /*=====================main body样式===================*/
 #main-body{
 	width: 100%;
@@ -101,10 +79,9 @@
 }
 #fixed-bg{
 	position: fixed;
-	top: 40px;
 	width: 100%;
 	height: 620px;
-	background: url(1.jpg) no-repeat center bottom;
+	background: url(1.jpg) no-repeat center center;
 	background-size: 100% 120%;
 	z-index: -1;
 }
@@ -239,9 +216,10 @@
 }
 .title-area span{
 	display: block;
-	width: 40px;
+	width: 60px;
 	height: 3px;
-	background: black;
+	background-image: -webkit-linear-gradient(left,#D8D8D8 0%, #FC9C12 50%,#D8D8D8 100%);
+	background-image: -moz-linear-gradient(left,#D8D8D8 0%, #FC9C12 50%,#D8D8D8 100%);
 	margin: 0 auto;
 	margin-top: -15px;
 }
@@ -427,7 +405,7 @@
 #life-content{
 	width: 100%;
 	height: 1000px;
-	background: #12e12e;
+	background: #EBEBEB;
 	padding: 50px 0;
 }
 
@@ -435,32 +413,63 @@
 /*=======================实验部分======================*/
 #experiment-content{
 	width: 100%;
-	height: 700px;
+	height: 950px;
 	background: #D8D8D8;
 	padding: 50px 0;
 }
 #experiment-area{
-	width: 960px;
-	height: 480px;
+	width: 1020px;
+	height: 720px;
 	background: #EBEBEB;
 	margin: 0 auto;
 	padding: 20px;
 	position: relative;
 }
 .experiment-demo{
-	width: 200px;
+	width: 300px;
 	height: 200px;
 	float: left;
 	background: #A3A3A3;
 	margin: 20px;
 	position: relative;
 }
-
+.cover-page{
+	background: url(cover.jpg) no-repeat center center;
+	background-size: 120% 100%;
+}
+.backtop{
+	background: url(backtop.jpg) no-repeat center center;
+	background-size: 120% 100%;
+}
+.slider{
+	background: url(slider.jpg) no-repeat center center;
+	background-size: 120% 100%;
+}
+.fullpage{
+	background: url(fullpage.jpg) no-repeat center center;
+	background-size: 120% 100%;
+}
+.tooltip{
+	background: url(tooltip.jpg) no-repeat center center;
+	background-size: 120% 100%;
+}
+.form{
+	background: url(form.jpg) no-repeat center center;
+	background-size: 120% 100%;
+}
+.layout{
+	background: url(layout.jpg) no-repeat center center;
+	background-size: 120% 100%;
+}
+.pageposition{
+	background: url(page.jpg) no-repeat center center;
+	background-size: 120% 100%;
+}
 /*=======================实验部分完======================*/
 /*=======================个人部分======================*/
 #person-content{
 	width: 100%;
-	height: 1800px;
+	height: 1300px;
 	background: #d8d8d8;
 	padding: 50px 0;
 }
@@ -472,12 +481,119 @@
 }
 #person-area{
 	position: relative;
-	top: 50px;
+	top: 150px;
 	width: 800px;
-	height: 1500px;
+	height: 950px;
 	background: #EBEBEB;
 	left: 50%;
 	margin-left: -400px;
+	background: linear-gradient(135deg, #BABABA 0%,#DDDADA 100%);
+}
+.person-text{
+	width: 400px;
+	height: 470px;
+	/*border: 1px solid red;*/
+	float: left;
+	position: relative;
+	overflow: hidden;
+	font-size: 15px;
+}
+.text-style-1{
+	font-size: 15px;
+	position: relative;
+	text-indent: 2em;
+	margin: 30px 40px 30px 30px;
+	padding: 10px;
+	line-height: 1.5;
+	border-left: 4px solid blue;
+}
+.person-part-1 p{	/*=======第一块内容====*/
+	text-indent: 2em;
+	padding: 0px 30px;
+	line-height: 1.5;
+}
+.person-part-2 div{   /*=======第二块内容====*/
+	width: 300px;
+	height: 300px;
+	border-radius: 50%;
+	margin: 100px auto;
+	border: 1px solid black;
+	background: url(2.jpg) no-repeat 60% ;
+	background-size: 140% 100%;
+}
+.person-part-3 ul{    /*=======第三块内容====*/
+	margin: 20px 10px;
+	list-style: none;
+	padding: 0;
+}
+.person-part-3 ul li{
+	margin: 5px;
+}
+.part-title{
+	font-size: 20px;
+	margin: 20px 30px 20px 0;
+}
+.list-title{
+	background: green;
+	width: 150px;
+	font-weight: 700;
+}
+.person-part-3{
+	padding:10px 60px;
+	width: 280px;
+	height: 460px;
+}
+.person-part-4{
+	padding:10px 50px 10px 30px;
+	width: 320px;
+	height: 460px;
+}
+.person-part-4 p{	/*=======第四块内容====*/
+	margin: 10px;
+}
+.person-part-4 div{
+	border: 1px solid black;
+	border-radius: 10px;
+	height: 10px;
+	width: 210px;
+	margin: 25px 0px 25px 80px;
+	position: relative;
+	text-align: right;
+}
+.person-part-4 i{
+	position: relative;
+	top: -6px;
+	right: 220px;
+}
+.progress-bar{
+	display: block;
+	height: 10px;
+	position: absolute;
+	top: 0px;
+	border-radius: 10px;
+	background: blue;
+}
+.bar-html{
+	width: 80%;
+}
+.bar-css{
+	width: 90%;
+}
+.bar-js{
+	width: 60%;
+}
+.bar-other{
+	width: 50%;
+}
+.person-part-4 p{
+	text-indent: 2em;
+	line-height: 1.5;
+}
+.person-part-4 h3{
+	margin-top: 30px;
+	font-weight: 300;
+	font-size: 20px;
+
 }
 /*=======================个人部分完======================*/
 /*======================脚部样式========================*/
