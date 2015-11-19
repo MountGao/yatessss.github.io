@@ -1,6 +1,7 @@
 $(document).ready(function(){
 	naviBtn();
 	animate();
+	onmouse()
 
 });
 
@@ -33,3 +34,9 @@ function animate(){
 		);}
 	);
 }
+
+/*function onmouse(){
+	$('#introduce-content div.part1-pic').mouseover(function(){
+		$('#introduce-content div.part1-pic').animate({backgroundSize:'100%'},5000);
+	});
+}*/

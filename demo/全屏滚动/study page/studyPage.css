@@ -203,7 +203,7 @@
 	width: 480px;
 	height: 330px;
 	position: relative;
-	background: url(2.jpg) no-repeat center center ;
+	background: url(2.jpg) no-repeat center center  ;
 	background-size: 100% 100%;
 	/*background: red;*/
 }
