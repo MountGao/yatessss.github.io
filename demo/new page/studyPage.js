@@ -30,7 +30,7 @@ function onScroll(){
 			menu.find("[href=" + contentId + "]").addClass("navi-active");
 		}
 		if(top == 0){ //导航栏显示or隐藏
-			$("#header-area").stop(true,false).animate({top:"-60px"},500);
+			$("#header-area").stop(true,false).animate({top:"-61px"},500);
 		}
 		else if(top > 0){
 			$("#header-area").stop(true,false).animate({top:"0px"},500);
@@ -42,25 +42,25 @@ function onScroll(){
 //banner动画效果
 function bannerAnimate(){
 	//第一部分动画
-	$("#banner-content h1").delay(1000).animate({opacity:"1"},3000);
-	$("#banner-content h2").delay(4000).animate({opacity:"1"},3000);
-	$("#banner-content p").delay(7000).animate({opacity:"1"},3000);
-	$("#banner-content span").delay(10000).animate({opacity:"1"},3000);
-	$("#banner-content").delay(13000).animate({opacity:"0"},3000,
+	$("#banner-content h1").delay(1000).animate({opacity:"1"},2000);
+	$("#banner-content h2").delay(3000).animate({opacity:"1"},2000);
+	$("#banner-content p").delay(5000).animate({opacity:"1"},2000);
+	$("#banner-content span").delay(7000).animate({opacity:"1"},2000);
+	$("#banner-content").delay(9000).animate({opacity:"0"},2000,
 		function(){
 		$("#banner-content").css("display","none");
 		$("#banner-content2").css("display","block");
 	});
 	//第二部分动画
-	$("#banner-content2 .step-1").delay(16000).animate({opacity:"1"},3000);
-	$("#banner-content2 p span").delay(16000).animate({opacity:"1"},3000);
-	$("#banner-content2 .step-2").delay(19000).animate({opacity:"1"},3000);
-	$("#banner-content2 .step-3").delay(22000).animate({opacity:"1"},3000);
-	$("#banner-content2 .step-4").delay(25000).animate({opacity:"1"},3000);
-	$("#banner-content2 .step-5").delay(28000).animate({opacity:"1"},3000);
-	$("#banner-content2 p span").delay(28000).animate({opacity:"1"},3000);
-	$("#banner-content2 .step-6").delay(31000).animate({opacity:"1"},3000);
-	$("#banner-content2 p span").delay(31000).animate({opacity:"1"},3000);
-	$("#down-arrow").delay(34000).animate({opacity:"1"},3000);
+	$("#banner-content2 .step-1").delay(11000).animate({opacity:"1"},2000);
+	$("#banner-content2 p span").delay(11000).animate({opacity:"1"},2000);
+	$("#banner-content2 .step-2").delay(13000).animate({opacity:"1"},2000);
+	$("#banner-content2 .step-3").delay(15000).animate({opacity:"1"},2000);
+	$("#banner-content2 .step-4").delay(17000).animate({opacity:"1"},2000);
+	$("#banner-content2 .step-5").delay(19000).animate({opacity:"1"},2000);
+	$("#banner-content2 p span").delay(19000).animate({opacity:"1"},2000);
+	$("#banner-content2 .step-6").delay(21000).animate({opacity:"1"},2000);
+	$("#banner-content2 p span").delay(23000).animate({opacity:"1"},2000);
+	$("#down-arrow").delay(25000).animate({opacity:"1"},2000);
 
 }
