@@ -30,10 +30,10 @@ function onScroll(){
 			menu.find("[href=" + contentId + "]").addClass("navi-active");
 		}
 		if(top == 0){ //导航栏显示or隐藏
-			$("#header-area").stop(true,false).animate({top:"-61px"},500);
+			$("#header-area").stop(true,false).animate({top:"-61px"},400);
 		}
 		else if(top > 0){
-			$("#header-area").stop(true,false).animate({top:"0px"},500);
+			$("#header-area").stop(true,false).animate({top:"0px"},400);
 		}
 		// console.log(eachContent);
 	});
