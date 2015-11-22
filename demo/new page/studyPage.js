@@ -1,6 +1,8 @@
 $(document).ready(function(){
 	bannerAnimate();
 	onScroll();
+	backTop()
+	downArrow()
 
 });
 
@@ -61,6 +63,21 @@ function bannerAnimate(){
 	$("#banner-content2 p span").delay(19000).animate({opacity:"1"},2000);
 	$("#banner-content2 .step-6").delay(21000).animate({opacity:"1"},2000);
 	$("#banner-content2 p span").delay(23000).animate({opacity:"1"},2000);
-	$("#down-arrow").delay(25000).animate({opacity:"1"},2000);
+	$("#down-arrow").delay(24000).animate({opacity:"1"},2000);
 
+}
+
+function backTop(){
+	$("#back-top").click(function(){
+		var disTop = $(document).scrollTop();
+		var speed = Math.ceil(disTop/8);
+		$("body,htm").animate({scrollTop: 0},speed);
+	});
+}
+
+function downArrow(){
+	$("#down-arrow").click(function(){
+		var speed = 1000;
+		$("body,htm").animate({scrollTop:630},speed);
+	});
 }
