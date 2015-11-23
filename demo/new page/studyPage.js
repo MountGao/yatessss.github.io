@@ -3,7 +3,7 @@ $(document).ready(function(){
 	onScroll();
 	backTop()
 	downArrow()
-
+	slider()
 });
 
 
@@ -79,5 +79,16 @@ function downArrow(){
 	$("#down-arrow").click(function(){
 		var speed = 1000;
 		$("body,htm").animate({scrollTop:630},speed);
+	});
+}
+
+function slider(){
+	$('.life-banner').unslider({
+		speed: 1000, 
+		delay: 4000, 
+		arrows: true,
+		fluid: true,
+		dots: true,
+		fade:true,
 	});
 }

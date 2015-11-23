@@ -492,11 +492,59 @@
 /*=======================生活部分======================*/
 #life-content{
 	width: 100%;
-	height: 1000px;
+	height: 850px;
 	background: #D8D8D8;
 	padding: 50px 0;
+	position: relative;
 }
-
+.life-banner ul{
+	margin: 0;
+	padding: 0;
+}
+.life-banner ul li{
+	margin: 0;
+	padding: 0;
+	width: 1000px;
+	height: 600px;
+}
+.inner p{
+	font-size: 2em;
+	color: #232323;
+}
+.life-banner ul li.life-pic-1{
+	background: url(microphone-1003559_1280.jpg) no-repeat center center;
+	background-size: 100% 120%;
+}
+.life-banner ul li.life-pic-2{
+	background: url(cheers-839865_1280.jpg) no-repeat center center;
+	background-size: 100% 120%;
+}
+.life-banner ul li.life-pic-3{
+	background: url(boy-984293_1280.jpg) no-repeat center center;
+	background-size: 100% 120%;
+}
+.prev{
+	display: block;
+	text-indent: -999em;
+	background: url(left.png);
+	background-size: 100% 100%;
+	width: 70px;
+	height: 70px;
+	position: relative;
+	top:-130px ;
+	left: -1200px;
+}
+.next{
+	display: block;
+	text-indent: -999em;
+	background: url(right.png);
+	background-size: 100% 100%;
+	width: 70px;
+	height: 70px;
+	position: relative;
+	top: -200px;
+	right: 40px;
+}
 /*=======================生活部分完======================*/
 /*=======================实验部分======================*/
 #experiment-content{
