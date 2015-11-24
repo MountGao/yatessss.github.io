@@ -119,12 +119,6 @@
 				opacity: 1;
 			}
 
-	.life-banner .arrows {
-		position: absolute;
-		bottom: 20px;
-		right: 20px;
-		color: #fff;
-	}
 		.life-banner .arrow {
 			cursor: pointer;
 		}

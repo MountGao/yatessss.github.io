@@ -78,7 +78,7 @@ function backTop(){
 function downArrow(){
 	$("#down-arrow").click(function(){
 		var speed = 1000;
-		$("body,htm").animate({scrollTop:630},speed);
+		$("body,htm").animate({scrollTop:670},speed);
 	});
 }
 
