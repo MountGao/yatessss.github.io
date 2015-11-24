@@ -312,7 +312,7 @@
 	width: 960px;
 }
 
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px), (max-width: 900px) {
+/*@media only screen and (min-device-width: 320px) and (max-device-width: 480px), (max-width: 900px) {
 	.wrap {
 		width: 90%;
 	}
@@ -359,4 +359,4 @@
 		background: url('img/icons@2x.png');
 		background-size: 100%;
 	}
-}
+}*/
