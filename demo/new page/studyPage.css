@@ -264,12 +264,12 @@
 	width: 400px;
 	height: 250px;
 	position: relative;
-	background: url(2.jpg) no-repeat top left ;
+	background: url(library-849797_640.jpg) no-repeat top left ;
 	background-size: 110% 110%;
 	transition: all 1s linear;
 }
 .part1-pic:hover{
-	background:url(2.jpg) no-repeat bottom right;
+	background:url(library-849797_640.jpg) no-repeat bottom right;
 	background-size: 120% 120%;
 }
 .part1-text{
@@ -307,13 +307,13 @@
 	width: 400px;
 	height: 250px;
 	position: absolute;
-	background: url(3.jpg) no-repeat top left ;
+	background: url(workstation-405747_640.jpg) no-repeat top left ;
 	background-size: 110% 110%;
 	right: 0;
 	transition: all 1s linear;
 }
 .part2-pic:hover{
-	background:url(3.jpg) no-repeat bottom right;
+	background:url(workstation-405747_640.jpg) no-repeat bottom right;
 	background-size: 120% 120%;
 }
 .part2-text{
@@ -332,12 +332,12 @@
 	width: 400px;
 	height: 250px;
 	position: relative;
-	background: url(4.jpg) no-repeat top left;
+	background: url(balloons-902658_640.jpg) no-repeat top left;
 	background-size: 110% 110%;
 	transition: all 1s linear;
 }
 .part3-pic:hover{
-	background:url(4.jpg) no-repeat bottom right;
+	background:url(balloons-902658_640.jpg) no-repeat bottom right;
 	background-size: 120% 120%;
 }
 /*======================学习部分===========================*/
@@ -722,7 +722,7 @@
 	font-size: 15px;
 	position: relative;
 	text-indent: 2em;
-	margin: 30px 40px 30px 30px;
+	margin: 20px 40px 20px 30px;
 	padding: 10px;
 	line-height: 1.5;
 	border-left: 4px solid blue;
@@ -730,7 +730,7 @@
 .person-part-1 p{	/*=======第一块内容====*/
 	text-indent: 2em;
 	padding: 0px 30px;
-	line-height: 1.5;
+	line-height: 1.3;
 }
 .person-part-2 div{   /*=======第二块内容====*/
 	width: 300px;
@@ -738,7 +738,7 @@
 	border-radius: 50%;
 	margin: 100px auto;
 	border: 1px solid black;
-	background: url(2.jpg) no-repeat 60% ;
+	background: url(213.jpg) no-repeat 60%;
 	background-size: 140% 100%;
 }
 .person-part-3 ul{    /*=======第三块内容====*/
