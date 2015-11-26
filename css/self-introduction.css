@@ -271,12 +271,12 @@
 /*==================进度条样式==================*/
 @keyframes loading-html{
 	0%   {background: #D7D7D7; width: 0px;}
-	100% {background: #2B2B2B; width: 300px;}
+	100% {background: #2B2B2B; width: 270px;}
 }
 
 .loading-html{
 	display: block;
-	width:300px;
+	width:270px;
 	height:23px;
 	border-radius: 5px;
 	background: #2B2B2B;
@@ -286,12 +286,12 @@
 
 @keyframes loading-css{
 	0%   {background: #D7D7D7; width: 0px;}
-	100% {background: #2B2B2B; width: 270px;}
+	100% {background: #2B2B2B; width: 300px;}
 }
 
 .loading-css{
 	display: block;
-	width:270px;
+	width:300px;
 	height:23px;
 	border-radius: 5px;
 	background: #2B2B2B;
@@ -763,7 +763,7 @@
 	position: relative;
 	left: 40px;
 	top: 30px;
-	background: url(../img/self-introduction/115529414310.jpg) no-repeat -27px 2px;
+	background: url(../img/self-introduction/115529414310.jpg) no-repeat -26px 2px;
 	background-size: 145%;
 }
 /*.break-line{
