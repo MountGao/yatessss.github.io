@@ -507,9 +507,31 @@
 	width: 1000px;
 	height: 600px;
 }
-.inner p{
+.inner h1{
 	font-size: 2em;
 	color: #232323;
+	font-weight: 100;
+}
+.inner h1.life-text-1{
+	color: #d8d8d8;
+}
+.inner p.life-text-1{
+	font-size: 1.2em;
+	color: #d8d8d8;
+	margin-top: 80px;
+	font-weight: 100;
+}
+.inner p{
+	font-size: 1.2em;
+	color: #232323;
+	margin-top: 80px;
+	font-weight: 100;
+}
+.inner a{
+	color: #d8d8d8;
+}
+.inner a:hover{
+	color: #FC9C12;
 }
 .life-banner ul li.life-pic-1{
 	background: url(microphone-1003559_1280.jpg) no-repeat center center;

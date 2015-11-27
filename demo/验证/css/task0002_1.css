@@ -1,0 +1,28 @@
+#main-box{
+	width: 800px;
+	height: 500px;
+	margin: 0 auto;
+	background: #CCCCCC;
+}
+ #text-input{
+	position: relative;
+	left: 180px;
+	top: 100px;
+	border: 1px solid #F97BCA;
+	font-size: 15px;
+} 
+.button{
+	position: relative;
+	left: 180px;
+	top: 90px;
+	width: 50px;
+	height: 30px;
+	border: none;
+	background: #FFD76C;
+}
+#error{
+	color:red;
+	position: relative;
+	top: 100px;
+	left: 180px;
+}
