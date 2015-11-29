@@ -2,31 +2,63 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<title>template demo</title>
-	<script type="text/javascript" src="template.js"></script>
+	<title>yatessss</title>
+	<link rel="stylesheet" type="text/css" href="Normalize.css">
+	<link rel="stylesheet" type="text/css" href="demo.css">
 </head>
 <body>
-	<div id="content"></div>
-	<script id="test" type="text/html">
-		{{if isAdmin}}
-		   <p>{{a}}</p>
-		<h1>{{title}}</h1>
-		<ul>
-			{{each list as value a}}
-				<li>索引 {{a + 1}} : {{value}}</li>
-			{{/each}}
-		</ul>
-		{{/if}}
-	</script>
-<script type="text/javascript">
-	var data = {
-		a : 'adasfsdf' ,
-		title : "基本例子",
-		isAdmin : true,
-		list : ['文艺', '博客', '摄影', '电影', '民谣', '旅行', '吉他']
-	};
-var html = template('test' , data);
-document.getElementById('content').innerHTML = html;
-</script>
+
+<div id="all-box">
+    <div id="fixed-bg"></div>
+    <div id="header-area">
+        <a id="my-logo" href="#">yatesss<span>s</span></a>
+
+    </div>
+    <div id="main-body">
+        <div id="navi-box">
+        	<ul id="blog-navi">
+        	<li><a href="#">HTML</a></li>
+        	<li><a href="#">CSS</a></li>
+        	<li><a href="#">JS</a></li>
+        	<li><a href="#">杂事</a></li>
+        </ul>
+        </div>
+    </div>
+    <div id="footer">
+        <div id="back-top2"><i class="icon-double-angle-up icon-3x"></i></div>  
+        <div id="link-box">
+            <ul id="footer-ul-1">
+            <li>链接</li>
+            <li>Gao Dashang List</li>
+            <li>Gao Dashang List</li>
+            <li>Gao Dashang List</li>
+            <li>Gao Dashang List</li>
+            <li>Gao Dashang List</li>
+            <li>Gao Dashang List</li>
+        </ul>
+        <ul id="footer-ul-2">
+            <li>链接</li>
+            <li>Gao Dashang List</li>
+            <li>Gao Dashang List</li>
+            <li>Gao Dashang List</li>
+            <li>Gao Dashang List</li>
+            <li>Gao Dashang List</li>
+            <li>Gao Dashang List</li>
+        </ul>
+        <ul id="footer-ul-3">
+            <li>链接</li>
+            <li>Gao Dashang List</li>
+            <li>Gao Dashang List</li>
+            <li>Gao Dashang List</li>
+            <li>Gao Dashang List</li>
+            <li>Gao Dashang List</li>
+            <li>Gao Dashang List</li>
+        </ul>
+        </div>
+        <p>© yatessss</p>
+    </div>
+</div>
+<script type="text/javascript" src="https://cdn.bootcss.com/jquery/2.1.4/jquery.js"></script>
+
 </body>
 </html>
