@@ -62,6 +62,31 @@
 }
 #blog-navi {
 	list-style: none;
+	padding: 1px;
+	background: #fff;
+}
+
+#blog-navi li{
+	position: relative;
+	height: 45px;
+	width: 150px;
+	border: 1px solid #000;
+}
+#blog-navi a{
+	display: block;
+	text-align: center;
+	width: 100%;
+	line-height: 45px;
+	height: 100%;
+}
+#blog-navi a:before{
+	position: absolute;
+	top: 0;
+	left: 0;
+	content: '';
+	height: 45px;
+	width: 5px;
+	background: blue;
 }
 /*======================脚部样式========================*/
 #footer{
