@@ -216,9 +216,12 @@ main .sec-3 {
     main .sec-3 > ul .sec-3-list:hover > ul {
       display: block; }
   main .sec-3 > ul .search {
-    background: #be4e48; }
+    background: #be4e48;
+    padding: 0; }
     main .sec-3 > ul .search a {
       display: block;
+      padding-left: 40px;
+      letter-spacing: 40px;
       color: #ffffff; }
 main .sec-4 {
   height: 605px;
@@ -437,9 +440,9 @@ main .sec-7 {
         font-size: 12px;
         color: #867e7a;
         margin: 26px 0 10px;
-        text-align: justify;
         text-overflow: ellipsis;
         overflow: hidden;
+        display: -webkit-box;
         -webkit-box-orient: vertical;
         -webkit-line-clamp: 2; }
       main .sec-7 ul li a {

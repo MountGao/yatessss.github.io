@@ -207,8 +207,11 @@ main {
       }
       .search{
         background: #be4e48;
+        padding:0 ;
         a{
           display: block;
+          padding-left: 40px;
+          letter-spacing: 40px;
           color: #ffffff;
         }
       }
@@ -483,13 +486,13 @@ main {
           font-size: 14px;
 
         }
-        p{
+        p {
           font-size: 12px;
           color: #867e7a;
           margin: 26px 0 10px;
-          text-align: justify;
           text-overflow: ellipsis;
           overflow: hidden;
+          display: -webkit-box;
           -webkit-box-orient: vertical;
           -webkit-line-clamp: 2;
         }
