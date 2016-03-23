@@ -1,0 +1,35 @@
+//字体颜色
+.ft-white{
+  color: #ffffff;
+}
+
+.ft-pink{
+  color: #e74f4d;
+}
+
+.ft-gray{
+  color: #999695;
+}
+
+.ft-black{
+  color: #323333;
+}
+//浮动
+.fl{
+  float: left;
+}
+
+.fr{
+  float: right;
+}
+//清除
+.fc:after {
+  content:".";
+  display:block;
+  height:0;
+  visibility:hidden;
+  clear:both;
+}
+.fc {
+  *zoom:1;
+}
