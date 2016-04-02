@@ -1,0 +1,215 @@
+body, button, input, select, textarea{
+	font: 14px/1.5 'Helvetica Neue',Arial,'Hiragino Sans GB',STHeiti,'STHeiti Light [STXihei]','Microsoft Yahei',sans-serif;
+    color: #ffffff
+}
+
+article, aside, blockquote, body, button, code, dd, details, div, dl, dt, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, hr, html, input, legend, li, menu, nav, ol, p, pre, section, td, textarea, th, ul {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+	/*max-width: 900px;*/
+	width: 100%;
+	position: relative;
+	background: url("../img/112717i4mszm40lj3t04l3_12.jpg") ;
+	/*background-size: 100% 	100%;*/
+}
+#particles-js{
+	position: absolute;
+	background: #000;
+	opacity: 0.6; 
+	/*z-index: 99;*/	
+	width: 100%;
+	height: 100%;
+}
+header{
+	/*max-width: 900px;*/
+	width: 770px;
+	margin: 0 auto;
+	height: 80px;
+	background: url("../img/header-black-bg.png") ;
+	padding: 15px 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	text-align: center;
+}
+
+header .logo-box{
+	height: 50px;
+	width: 50px;
+	float: left;
+	margin-left: 30px
+}
+
+header >p{
+	color: #ffffff;
+	opacity: 0.8;
+	line-height: 50px;
+	font-size: 20px;
+	letter-spacing: 5px;
+	padding-right: 80px;: 
+
+}
+
+main{
+	/*max-width: 900px;*/	
+	padding: 20px 30px;
+	width: 770px;
+	margin: 0 auto;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	overflow: hidden;
+	/*background: url("../img/hero-bg_c80691a2f8.jpg") ;*/
+}
+main .personal{
+	opacity: 0.8;
+	overflow: hidden;
+}
+
+main .personal h3{
+	float: left;
+	display: inline-block;
+	font-family: 'STXihei';
+	font-size: 50px;
+}
+
+main .personal .personal-information{
+	float: left;
+	margin-left: 20px;
+	position: relative;
+	top: 23px;
+}
+
+.right-sidebar{
+	float: right;
+	height: 800px;
+	width: 37%;
+}
+.content-border-bottom{
+	position: relative;
+}
+.content-border-bottom:before{
+	content: '';
+	display: block;
+	height: 75px;
+	width: 1px;
+	border-left: 1px solid #ffffff;
+	opacity: 0.8;
+	position: absolute;
+	bottom: -20px;
+	left: 0px;
+}
+.content-border-bottom:after{
+	content: '';
+	display: block;
+	height: 1px;
+	width: 75px;
+	border-bottom: 1px solid #ffffff;
+	opacity: 0.8;
+	position: absolute;
+	bottom: 0;
+	left: -20px;
+}
+
+.content-border-top{
+	position: relative;
+}
+.content-border-top:before{
+	content: '';
+	display: block;
+	height: 75px;
+	width: 1px;
+	border-left: 1px solid #ffffff;
+	opacity: 0.8;
+	position: absolute;
+	top: -20px;
+	left: 0px;
+}
+.content-border-top:after{
+	content: '';
+	display: block;
+	height: 1px;
+	width: 75px;
+	border-bottom: 1px solid #ffffff;
+	opacity: 0.8;
+	position: absolute;
+	top: 0;
+	left: -20px;
+}
+
+.div-spacing{
+	padding: 10px 15px;
+	opacity: 0.8;
+}
+
+.div-spacing p{
+	margin-top: 8px; 
+}
+
+.education{
+	margin-top: 25px;
+}
+.education svg{
+	position: absolute;
+	z-index: -1;
+	bottom: 10%;
+	left: -110%;
+	width: 100%;
+	height: 100%;
+}
+.work{
+	margin-top: 50px;
+	text-align: justify;
+}
+.work svg{
+	position: absolute;
+	z-index: -1;
+	bottom: 10%;
+	left: -110%;
+	width: 100%;
+	height: 100%;
+}
+.skills{
+	margin-top: 70px;
+	text-align: justify;
+}
+.skills svg{
+	position: absolute;
+	z-index: -1;	
+	bottom: 55%;
+	left: -110%;
+	width: 100%;
+	height: 100%;
+}
+
+.banner-pic{
+	margin-top: 10%;
+	width: 50%;
+	float: left;
+}
+
+.banner-pic img{
+	width: 	100%;
+	height: 90%;
+}
+
+.about-me{
+	position: relative;
+	margin-top: 100px;
+	margin-left: 30px; 
+	width: 40%;
+	float: left;
+	text-align: justify;
+}
+
+.about-me svg{
+	position: absolute;
+	z-index: -1;	
+	bottom: 45%;
+	left: -10%;
+	width: 100%;
+	height: 100%;
+}
