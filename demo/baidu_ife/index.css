@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    box-sizing: border-box;
+    padding: 5px 20px;
+    width: 100%;
+    min-width: 900px;
+    background: #337AB7;
+    overflow: hidden;
+    text-align: center;
+}
+header p{
+    line-height: 50px;
+    font-size: 20px;
+    color: #ffffff;
+    padding-right: 230px;
+}
+.logo{
+    width: 230px;
+    float: left;
+}
+.logo img{
+    height: 50px;
+}
+
+main{
+    width: 100%;
+    min-width: 900px;
+}
